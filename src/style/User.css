@@ -1,0 +1,28 @@
+.ticket-board {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .user-section {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 240px;
+  }
+  
+  .tickets {
+    margin-top: 10px;
+
+  }
+  
+  .ticket-card {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .content-header{
+    display: flex;
+    justify-content: left;
+    
+
+}

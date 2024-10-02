@@ -1,0 +1,20 @@
+.board {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .ticket-card {
+    margin: 10px 0;
+  }
+  
