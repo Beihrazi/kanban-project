@@ -1,7 +1,11 @@
+.board{
+  background-color: #f5f6f6;
+}
 .kanban-board {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+   
   }
   
   .priority-column {

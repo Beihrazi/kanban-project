@@ -18,7 +18,7 @@ const MainBody = ({ grouping, ordering }) => {
   }, []);
 
   return (
-    <div>
+    <div className='board'>
       {grouping === 'Users' ? (
         <User tickets={tickets} ordering={ordering} />
       ) : grouping === 'Priority' ? (

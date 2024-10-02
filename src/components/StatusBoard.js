@@ -92,7 +92,7 @@ const StatusBoard = ({ ordering }) => {
       {users.map((user) => (
         <div key={user.id} className="user-section">
           <div className="user-header">
-            <h2>{user.name}</h2> {/* Display user name */}
+            {/* <h2>{user.name}</h2> Display user name */}
           </div>
 
           <div className="priority-header">
